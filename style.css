@@ -127,6 +127,12 @@ img{
     flex-wrap: wrap;
 
 }
+.container-p{
+    margin: 22px 30px;
+    padding: 100px;
+    /* padding-bottom: 10px; */
+    /* padding: 23px; */
+ }
 
 
 
@@ -389,7 +395,7 @@ hr{
 /* // Large devices (desktops, 992px and up) */
 @media (max-width: 992px) { 
 .btn{
-    margin-left: 16px;
+    margin-left: 0px;
 }
 
 header h2{
@@ -455,7 +461,8 @@ header p{
     margin: auto;
 }
 .container {
-    margin: 22px 33px;
+    /* margin: 22px 33px; */
+        margin: 22px 18px;
  }
 
 svg{
@@ -502,6 +509,9 @@ footer{
      .second{
         margin-right: 132px;
      }
+     .container{
+        margin: 22px 0px;
+     }
 
 }
 
@@ -517,6 +527,10 @@ footer{
         margin: 22px 0;
         padding: 14px;
      }
+     .first-col {
+        margin-left: 226px;
+    }
+     
     .container-p{
         margin: 22px 0px;
         padding: 40px;
@@ -529,13 +543,37 @@ footer{
         width: 350px;
         margin: 20px 0px;
         margin-left: 64px;
-         }
-         .first-col{
-            margin-left: 200px;
-         }
+    }
+    .first-col{
+   margin-left: 200px;
+        }
 
-         .gallery{
-            /* margin-left: 14px; */
-            margin: 14px;
-         }
+    
+}
+
+@media (max-width: 380px) { 
+
+    .container {
+        /* margin: 22px 27px; */
+        margin: 22px 0;
+    }
+    .row-flex{
+        margin-left: 21px;
+    }
+    .first-col .card-img img {
+        width: 300px;
+        margin: 20px 0px;
+        /* margin-left: 64px; */
+    }
+    /* .gallery {
+        overflow: hidden;
+        width: 92%;
+    } */
+
+    .container-p {
+        /* margin: 22px 30px; */
+        padding: 31px;
+        
+    }
+ 
 }
